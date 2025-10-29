@@ -1,0 +1,14 @@
+.jobs-container
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  justify-items: center; 
+  margin-top: -850px;
+  margin-left: 250px;
+}
+.title,.desc,.location,.salary{
+    color: blue;
+   
+}

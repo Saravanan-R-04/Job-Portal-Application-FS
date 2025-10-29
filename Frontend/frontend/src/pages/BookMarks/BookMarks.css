@@ -1,0 +1,22 @@
+.jobs-container
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  justify-items: center; 
+}
+.job-card{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width:500px;
+    height:450px;
+    margin-left: 25px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.title,.desc,.location,.salary{
+    color: blue;
+}

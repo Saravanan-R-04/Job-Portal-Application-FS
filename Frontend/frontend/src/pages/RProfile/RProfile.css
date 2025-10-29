@@ -1,0 +1,15 @@
+.profile{
+    width: 500px;
+    height: 500px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.det{
+    margin-left: 550px;
+    margin-top: 120px;
+    letter-spacing: 2px;
+}

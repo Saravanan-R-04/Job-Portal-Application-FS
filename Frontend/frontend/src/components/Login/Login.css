@@ -1,0 +1,25 @@
+.login{
+    width: 400px;
+    height: 450px;
+    border-color:black;
+    border-width:3px;
+    border-style:solid;
+    margin-top:20px;
+    margin-left: 630px;
+}
+h3{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.email,.password{
+    margin-left: 30px;
+    width: 270px;
+    height: 35px;
+}
+button{
+    margin-left: 130px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+

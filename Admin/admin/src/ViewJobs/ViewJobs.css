@@ -1,0 +1,67 @@
+.jobs-container
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  justify-items: center; 
+}
+.job-card{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width:440px;
+    height:460px;
+    margin-left: 5px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.title,.desc,.location,.salary{
+    color: blue;
+}
+.tag{
+    margin-top:0px;
+    margin-left: 30px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    width: 80px;
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+}
+.apply {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  right:90px;
+}
+
+.apply:hover {
+  background-color: #004804;
+  transform: translateY(-2px);
+}
+
+.bookmark {
+  background-color: #fff;
+  color: #ff9800; 
+  border: 2px solid #ff9800;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  margin-left: 60px;
+}
+
+.bookmark:hover {
+  background-color: #ff9800;
+  color: white;
+  transform: translateY(-2px);
+}

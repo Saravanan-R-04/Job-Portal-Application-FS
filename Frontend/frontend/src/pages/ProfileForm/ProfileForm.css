@@ -1,0 +1,27 @@
+.profile-form{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    /* width: 1000px;
+    height: 2700px; */
+    min-height: auto;
+    margin-top: 0px;
+    margin-left: 350px;
+}
+.h3{
+    margin-left: 50px;
+    margin-top: 60px;
+    color:blue;
+}
+input{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.btn{
+    margin-left: -20px;
+    background-color: black;
+    color:white;
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+}
